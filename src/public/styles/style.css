@@ -1,0 +1,51 @@
+
+body{
+    margin: 0px; 
+    background-color: #36799B;
+    margin-top: 10px;
+}
+.signIn{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 10px;
+}
+
+.signIn-form{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: lightslategray;
+    border-radius: 10px;
+    opacity: 0.5;
+    display: grid;
+    grid-template-rows: 30% 70%; 
+}
+.contact{
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    text-decoration: underline;
+    text-align: center;
+}
+
+.signIn-form form{
+    margin: 10px 150px;
+    padding: 0px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-row-gap: 100px; 
+}
+
+.signIn-image img{
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.signIn input, button{
+    border-radius: 10px;
+    background-color: #EEFCE3;
+}
+
+.signIn-form h1{
+    font-size: 70px;
+    margin: auto;
+    text-decoration: overline;
+}
