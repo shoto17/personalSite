@@ -16,7 +16,7 @@ const Login = () => {
 
                     <!-- <label for="user"></label> -->
                     <input type="password" placeholder="password" id="password">
-                    <input type="submit" value="Login" id="submit"/>
+                    <input type="submit" value="Login"/>
                     <div class="contact">
                         <h3>Created by: shoto</h3>
                         <h3>Email: mrkyloren117@gmail.com</h3>
@@ -27,7 +27,5 @@ const Login = () => {
     `;
     return view;
 };
-
-
 
 export default Login;
