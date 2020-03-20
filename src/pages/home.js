@@ -1,6 +1,7 @@
 import '../styles/styleHome.css'
 
 const Home = () => {
+    location.hash = '/home';
     const view = `
         <div class="home">
             <div class="home-left">

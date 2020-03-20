@@ -1,4 +1,6 @@
 import '../styles/style.css'
+import '../utils/check'
+
 
 const Login = () => {
     const view = `
@@ -8,14 +10,13 @@ const Login = () => {
             </div>
             <div class="signIn-form">
                 <h1>Log you in</h1>
-                <form action="#home">
+                <form action = "#/:home">
                     <!-- <label for="user"></label> -->
-                    <input type="text" placeholder="exampleUser">
+                    <input type="text" placeholder="exampleUser" id="username">
 
                     <!-- <label for="user"></label> -->
-                    <input type="text" placeholder="password">
-
-                    <button type="button" name="enter">Enter</button>
+                    <input type="password" placeholder="password" id="password">
+                    <input type="submit" value="Login" id="submit"/>
                     <div class="contact">
                         <h3>Created by: shoto</h3>
                         <h3>Email: mrkyloren117@gmail.com</h3>
@@ -26,5 +27,7 @@ const Login = () => {
     `;
     return view;
 };
+
+
 
 export default Login;
