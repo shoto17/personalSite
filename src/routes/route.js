@@ -3,7 +3,6 @@ import Login from '../pages/login'
 import Error404 from '../pages/404'
 import getHash from '../utils/getHash'
 import resolveRoutes from '../utils/resolveRoutes'
-
 const routes = {
     "/": Login,
     "/:home": Home,

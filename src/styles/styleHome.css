@@ -63,3 +63,17 @@ color: whitesmoke;
     text-align: center;
 }
 
+.home-right img{
+    width: 30px;
+    height: 30px;
+}
+
+.home-right img:hover{
+    width: 40px;
+    height: 40px;
+}
+
+#error404 {
+    margin-top: 30px;
+}
+
