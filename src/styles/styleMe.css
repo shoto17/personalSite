@@ -1,0 +1,21 @@
+
+
+.home-middle-body-me {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.home-middle-body-me img{
+    margin: auto;
+    border-radius: 15px;
+    width: 157px;
+    height: 219px;
+}
+
+#home-middle-body-me-extra {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}

@@ -1,7 +1,8 @@
-import '../styles/styleHome.css'
+import '../styles/style.css';
+import '../styles/styleTasks.css'
 
-const Home = () => {
-    location.hash = '/:home';
+const Tasks = () => {
+    location.hash = '/tasks';
     const view = `
         <div class="home">
             <div class="home-left">
@@ -9,12 +10,17 @@ const Home = () => {
                 <a href="#/:home">Home</a>
                 <a href="#/aboutme"><img src="../src/assets/images/usuario.png" alt=""></a>
                 <!-- <img src="../public/assets/images/brandon3.jpg" alt=""> -->
-                <a href="#/tasks"><img src="../src/assets/images/portafolio.png" alt=""></a>
+                <a href="/tasks"><img src="../src/assets/images/portafolio.png" alt=""></a>
                 <a href="#/meetings"><img src="../src/assets/images/grupo.png" alt=""></a>
                 <a href=""><img src="../src/assets/images/cerrar-sesion.png" alt=""></a>
             </div>
             <div class="home-middle" id = "home-middle">
-                <h1 class="home-middle-body">Welcome</h1>
+            <div class = "home-middle-tasks">
+                <h1 class="home-middle-body">Tasks</h1>
+                <img src="../src/assets/images/libro.png" alt="">
+                <h3>There are no tasks added because I don't know how, but I will 7u7</h3>
+                <button type="button" id = "button-task" onclick="alert('You cannot add tasks yet!')">Add task</button>
+            </div>    
             </div>
             <div class="home-right">
                 <h1 class="home-middle-extra">Dato inutil</h1>
@@ -28,7 +34,8 @@ const Home = () => {
             </div>
         </div>
     `;
+
     return view;
 };
 
-export default Home;
+export default Tasks;

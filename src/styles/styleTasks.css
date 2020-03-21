@@ -1,0 +1,28 @@
+
+.home-middle-tasks {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-middle-tasks img {
+    margin-top: 100px;
+    width: 256px;
+    height: 256px;
+    align-self: center;
+} 
+
+.home-middle-tasks h3 {
+    margin-top: 100px;
+    align-self: center;
+}
+
+.home-middle-tasks h1{
+    align-self: center;
+}
+
+#button-task {
+    align-self: flex-end;
+    margin-top: 50px;
+    /* margin-right: 100px; */
+    border-radius: 0px;
+}

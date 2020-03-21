@@ -1,7 +1,8 @@
-import '../styles/styleHome.css'
+import '../styles/style.css';
 
-const Home = () => {
-    location.hash = '/:home';
+const Meetings = () => {
+    location.hash = '/meetings';
+
     const view = `
         <div class="home">
             <div class="home-left">
@@ -14,7 +15,7 @@ const Home = () => {
                 <a href=""><img src="../src/assets/images/cerrar-sesion.png" alt=""></a>
             </div>
             <div class="home-middle" id = "home-middle">
-                <h1 class="home-middle-body">Welcome</h1>
+                <h1 class="home-middle-body">Meetings</h1>
             </div>
             <div class="home-right">
                 <h1 class="home-middle-extra">Dato inutil</h1>
@@ -28,7 +29,8 @@ const Home = () => {
             </div>
         </div>
     `;
+
     return view;
 };
 
-export default Home;
+export default Meetings;
