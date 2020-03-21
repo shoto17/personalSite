@@ -15,6 +15,12 @@ const Home = () => {
             </div>
             <div class="home-middle" id = "home-middle">
                 <h1 class="home-middle-body">Welcome</h1>
+                <h2>I don't know what's gonna be here but there's a short description</h2>
+                <h3>This is a project about a personal site, please browse and I hope 
+                you enjoy it. You can try to enter to diferent pages using the 
+                dashboard at your left or if you want to see a 404 page there's an 
+                icon down right, isn't it? </h3>
+                <img src="../src/assets/images/home.gif" alt="">
             </div>
             <div class="home-right">
                 <h1 class="home-middle-extra">Dato inutil</h1>

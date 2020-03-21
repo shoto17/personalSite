@@ -18,7 +18,7 @@ const Tasks = () => {
             <div class = "home-middle-tasks">
                 <h1 class="home-middle-body">Tasks</h1>
                 <img src="../src/assets/images/libro.png" alt="">
-                <h3>There are no tasks added because I don't know how, but I will 7u7</h3>
+                <h3>There are no tasks added because I don't know how to do, but I will 7u7</h3>
                 <button type="button" id = "button-task" onclick="alert('You cannot add tasks yet!')">Add task</button>
             </div>    
             </div>

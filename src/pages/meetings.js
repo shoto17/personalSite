@@ -16,6 +16,11 @@ const Meetings = () => {
             </div>
             <div class="home-middle" id = "home-middle">
                 <h1 class="home-middle-body">Meetings</h1>
+                <div class = "home-middle-tasks">
+                    <img src="../src/assets/images/reunion.png" alt="">
+                    <h3>There are no meetings added because I don't know how to do it, but I will 7u7</h3>
+                    <button type="button" id = "button-task" onclick="alert('You cannot add meetings yet!')">Add task</button>
+                </div>
             </div>
             <div class="home-right">
                 <h1 class="home-middle-extra">Dato inutil</h1>

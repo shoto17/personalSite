@@ -77,3 +77,14 @@ color: whitesmoke;
     margin-top: 30px;
 }
 
+.home-middle h3, h2{
+    margin: 40px;
+}
+
+
+.home-middle img {
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+}
+
