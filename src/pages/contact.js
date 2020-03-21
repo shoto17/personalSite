@@ -1,8 +1,8 @@
-import '../styles/style.css';
-import '../styles/styleTasks.css'
+import '../styles/styleHome.css'
+import '../styles/styleContact.css'
 
-const Tasks = () => {
-    location.hash = '/tasks';
+const Contact = () => {
+    location.hash = '/contact';
     const view = `
         <div class="home">
             <div class="home-left">
@@ -10,18 +10,18 @@ const Tasks = () => {
                 <a href="#/:home">Home</a>
                 <a href="#/aboutme"><img src="../src/assets/images/usuario.png" alt=""></a>
                 <!-- <img src="../public/assets/images/brandon3.jpg" alt=""> -->
-                <a href="/tasks"><img src="../src/assets/images/portafolio.png" alt=""></a>
+                <a href="#/tasks"><img src="../src/assets/images/portafolio.png" alt=""></a>
                 <a href="#/meetings"><img src="../src/assets/images/grupo.png" alt=""></a>
                 <a href="#/contact"><img src="../src/assets/images/contacto.png" alt=""></a>
                 <a href=""><img src="../src/assets/images/cerrar-sesion.png" alt=""></a>
             </div>
             <div class="home-middle" id = "home-middle">
-            <div class = "home-middle-tasks">
-                <h1 class="home-middle-body">Tasks</h1>
-                <img src="../src/assets/images/libro.png" alt="">
-                <h3>There are no tasks added because I don't know how to do, but I will 7u7</h3>
-                <button type="button" id = "button-task" onclick="alert('You cannot add tasks yet!')">Add task</button>
-            </div>    
+                <h1 class="home-middle-body">Contact</h1>
+                <div class="home-middle-contact">
+                    <a href="https://www.facebook.com/brandon.cervantesrubi"><img src="../src/assets/images/facebook.png" alt=""></a>
+                    <a href="https://twitter.com/Brandon_CGO"><img src="../src/assets/images/twitter.png" alt=""></a>
+                    <a href="https://github.com/shoto17"><img src="../src/assets/images/github.png" alt=""></a>
+                </div>
             </div>
             <div class="home-right">
                 <h1 class="home-middle-extra">Dato inutil</h1>
@@ -35,8 +35,7 @@ const Tasks = () => {
             </div>
         </div>
     `;
-
     return view;
 };
 
-export default Tasks;
+export default Contact;

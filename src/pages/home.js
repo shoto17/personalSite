@@ -5,12 +5,13 @@ const Home = () => {
     const view = `
         <div class="home">
             <div class="home-left">
-                <a href="">Watch</a>
+                <!--<a href="">Watch</a>-->
                 <a href="#/:home">Home</a>
                 <a href="#/aboutme"><img src="../src/assets/images/usuario.png" alt=""></a>
                 <!-- <img src="../public/assets/images/brandon3.jpg" alt=""> -->
                 <a href="#/tasks"><img src="../src/assets/images/portafolio.png" alt=""></a>
                 <a href="#/meetings"><img src="../src/assets/images/grupo.png" alt=""></a>
+                <a href="#/contact"><img src="../src/assets/images/contacto.png" alt=""></a>
                 <a href=""><img src="../src/assets/images/cerrar-sesion.png" alt=""></a>
             </div>
             <div class="home-middle" id = "home-middle">

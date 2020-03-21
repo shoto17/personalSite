@@ -1,0 +1,15 @@
+
+.home-middle-contact {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-left: 100px;
+}
+
+
+.home-middle-contact img{
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    align-self: flex-start;
+}

@@ -4,9 +4,11 @@ import Error404 from '../pages/404'
 import Meetings from '../pages/meetings'
 import aboutMe from '../pages/aboutme'
 import Tasks from '../pages/tasks'
+import Contact from '../pages/contact'
 
 import getHash from '../utils/getHash'
 import resolveRoutes from '../utils/resolveRoutes'
+
 
 
 const routes = {
@@ -15,7 +17,8 @@ const routes = {
     "/404c": Error404,
     "/aboutme": aboutMe,
     "/meetings": Meetings, 
-    "/tasks": Tasks
+    "/tasks": Tasks,
+    "/contact": Contact
 };
 
 const router = async () => {
