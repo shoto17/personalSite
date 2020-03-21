@@ -17,11 +17,19 @@ const Contact = () => {
             </div>
             <div class="home-middle" id = "home-middle">
                 <h1 class="home-middle-body">Contact</h1>
-                <div class="home-middle-contact">
-                    <a href="https://www.facebook.com/brandon.cervantesrubi"><img src="../src/assets/images/facebook.png" alt=""></a>
-                    <a href="https://twitter.com/Brandon_CGO"><img src="../src/assets/images/twitter.png" alt=""></a>
-                    <a href="https://github.com/shoto17"><img src="../src/assets/images/github.png" alt=""></a>
+                <div class = "home-middle-grid">
+                    <div class="home-middle-contact">
+                        <a href="https://www.facebook.com/brandon.cervantesrubi"><img src="../src/assets/images/facebook.png" alt=""></a>
+                        <a href="https://twitter.com/Brandon_CGO"><img src="../src/assets/images/twitter.png" alt=""></a>
+                        <a href="https://github.com/shoto17"><img src="../src/assets/images/github.png" alt=""></a>
+                    </div>
+                    <div class = "home-middle-text">
+                        <h2>My Facebook.</h2>
+                        <h2>My Twitter.</h2>
+                        <h2>My GitHub.</h2>
+                    </div>
                 </div>
+                <h1 class="home-middle-body">...</h1>
             </div>
             <div class="home-right">
                 <h1 class="home-middle-extra">Dato inutil</h1>
